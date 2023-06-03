@@ -1,3 +1,7 @@
 .hidden {
   display: none;
 }
+
+body {
+  background-color: rgb(192, 192, 246);
+}
