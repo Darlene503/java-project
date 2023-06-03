@@ -1,21 +1,20 @@
 function hideResults() {
-  document.getElementById("swings").setAttribute("class", "hidden");
-  document.getElementById("coaster").setAttribute("class", "hidden");
-  document.getElementById("tower").setAttribute("class", "hidden");
-  document.getElementById("sorry").setAttribute("class", "hidden");
+  document.getElementById("Javascript").setAttribute("class", "hidden");
+  document.getElementById("C#").setAttribute("class", "hidden");
+  document.getElementById("Python").setAttribute("class", "hidden");
+ 
 }
 
 window.onload = function() {
   document.querySelector("form").onsubmit = function(event) {
     event.preventDefault();
     hideResults();
-    const age = parseInt(document.querySelector("input#number").value);
+    const times = parseInt(document.querySelector("input#number").value);
   }
   
-  // we're evaluating the Tower of Doom ride first
-  if (age >= 12 && height >= 60) {
-    document.getElementById("swings").removeAttribute("class");
-    document.getElementById("coaster").removeAttribute("class");
-    document.getElementById("tower").removeAttribute("class");
+  if (times >= 3 && height >= 10) {
+    document.getElementById("Javascript").removeAttribute("class");
+    document.getElementById("C#").removeAttribute("class");
+    document.getElementById("Python").removeAttribute("class");
   } 
 };
