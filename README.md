@@ -1,6 +1,6 @@
 README
 
-by DArlene Duyn 
+by Darlene Duyn 
 
 Here's a webpage that you can use to help determine what computer language woud possible suit you.
 
