@@ -5,3 +5,11 @@
 body {
   background-color: rgb(241, 185, 75);
 }
+
+h1 { color: aliceblue;
+    text-decoration-line: underline;
+    text-shadow: 2px 2px cadetblue
+    ;
+
+
+}
