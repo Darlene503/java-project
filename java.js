@@ -7,6 +7,8 @@ function hideResults() {
 }
 
 window.onload = function() {
+  hideResults()
+
   document.querySelector("form").onsubmit = function(event) {
     event.preventDefault();
     hideResults();
@@ -15,9 +17,15 @@ window.onload = function() {
 
   }
   
-  if (times >= 3 && camp >= 10) {
-    document.getElementById("Javascript").removeAttribute("class");
-    document.getElementById("C#").removeAttribute("class");
-    document.getElementById("Python").removeAttribute("class");
-  } 
-};
+  if (times && camp && flying) {
+    if (age >= 12 && height >= 60) {
+      document.getElementById("times").removeAttribute("class");
+      document.getElementById("camp").removeAttribute("class");
+      document.getElementById("fly").removeAttribute("class");
+    } else if (age >= 12 || height >= 48) {
+      document.getElementById("rafting").removeAttribute("class");
+      document.getElementById("hiking").removeAttribute("class");
+    }
+  } else (isNaN(times) && isNan(camp) && isNaN(fly)) 
+    document.getElementById("error").removeAttribute("class");
+  }; 
