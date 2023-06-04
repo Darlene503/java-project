@@ -19,4 +19,8 @@ Depending on the number you enter in the blanks and hit " Your new adventure awa
 -Known Bugs-
 Having issue getting the answers to pop up after hitting submit button. 
 
+-License-
+
+MIT
+Copyright (c) 6/2023 Darlene Duyn
 
