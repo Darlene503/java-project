@@ -2,7 +2,7 @@ README
 
 by Darlene Duyn 
 
-Here's a webpage that you can use to help determine what computer language would  suit you best. 
+Here's a webpage that you can use to help determine what computer language would suit you best. 
 
 -Technologies Used-
 
