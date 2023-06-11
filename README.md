@@ -26,7 +26,7 @@ Depending on the number you enter in the blanks and hit " Your new adventure awa
 -See results-
 
 -Known Bugs-
-Having issue getting the answers to pop up after hitting submit button. 
+None at this time
 
 -License-
 
